@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Index.css">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <div id="base">
+        <form action="" id="formulario">
+
+           
+            <table border="0">
+
+                <tr>
+                <th class="titulo">
+                    <p>Colegio pies descalzo</p>
+                </th>
+            
+                </tr>
+               
+
+                <tr>
+                    <td>Nombres:</td>
+                    <td>Apellidos:</td>
+                </tr>
+
+                <tr>
+                    <td><input id="nombre" type="text" placeholder="Your Name!" autocomplete="off"></td>
+                    <td><input type="text" id="apellido" placeholder="Your Last Name!" autocomplete="off"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Edad:</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="text" placeholder="Old Year" autocomplete="off" id="edad"></td>
+                </tr>
+
+                <tr>
+                    <td >Sexo:</td>
+                    <td><select name="" id="sexo">
+                            <option value="" selected="true" disabled="disabled">Elija un sexo</option>
+                            <option value="1">Masculino</option>
+                            <option value="2">Femenino</option>
+                            <option value="3">Otro</option>
+                        </select></td>
+                </tr>
+
+                <tr>
+                    <td>Curso:</td>
+                    <td><select name="" id="curso">
+                            <option value="" selected="true" disabled="disabled">Elija un curso</option>
+                            <option value="1">6°</option>
+                            <option value="2">7°</option>
+                            <option value="3">8°</option>
+                            <option value="4">9°</option>
+                            <option value="5">10°</option>
+                            <option value="6">11°</option>
+                        </select></td>
+                </tr>
+
+                <tr>
+                    <td>Estado Civil:</td>
+                    <td><select name="" id="estado">
+                        <option value="" selected="true" disabled="disabled">Estado Civil</option>
+                        <option value="1">Soltero</option>
+                        <option value="2">Casado</option>
+                        <option value="3">Viudo</option>
+                    </select>
+                </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Poblacion vulnerable:</td>
+                </tr>
+
+                <tr>
+                    <td><input type="radio" name="poblacion" id="poblacionSi" value="Si"> Si </td>
+                    <td> <input type="radio" name="poblacion" id="poblacionNo" value="No"> No</td>
+                </tr>
+
+                <tr>
+                    <td>Ubicacion:</td>
+                    <td>
+                        <select name="" id="ciudad">
+                            <option value="" selected="true" disabled="disabled">Ciudad</option>
+                            <option value="1">La playa</option>
+                            <option value="2">Malambo</option>
+                            <option value="3">Barranquilla</option>
+                            <option value="4">Galapa</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="enviar" class="boton">
+                    </td>
+                </tr>
+            </table>
+
+
+        </form>
+    </div>
+
+
+    <div id="Resultado">
+        
+    </div>
+    
+    <button id="flecha"> + </button>
+</body>
+<script src="/Index.js"></script>
+</html>
